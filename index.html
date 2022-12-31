@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Collection: Form2</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&family=Lato&family=Poiret+One&display=swap" rel="stylesheet">
+
+    <!-- fontausome -->
+    <script src="https://kit.fontawesome.com/1fb8ba0264.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <Section id="Intro">
+        <div class="FFDiv">
+            <h1 class="heading">Ready to spend some time on my form collections?</h1>
+            <p class="description">Description (Optional)</p>
+            <a href="#FirstName">Lets Get Started</a>
+            <div class="time">
+                <i class="fa-solid fa-clock"></i>
+                <p>It take 1.5 minutes</p>
+            </div>
+        </div>
+        <div class="SDiv">
+            <a href="#"><i class="fa-solid fa-caret-up"></i></a>
+            <a href="#FirstName"><i class="fa-solid fa-caret-down"></i></a>
+            <p>Forms Collection</p>
+        </div>
+    </Section>
+    <Section id="FirstName">
+        <div class="FFDiv">
+            <div class="question">
+                <div class="numbering">
+                    <p>1</p>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+                <div class="content">
+                    <h1 class="heading">Hi there! So what's your name?</h1>
+                    <p class="description">Description (Optional)</p>
+                    <form action="">
+                        <input type="text" placeholder="Type Your Answer Here ...">
+                        <a href="#LastName" class="OkBtn">OK<i class="fa-solid fa-check margin-left"></i></a>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="SDiv">
+            <a href="#Intro"><i class="fa-solid fa-caret-up"></i></a>
+            <a href="#LastName"><i class="fa-solid fa-caret-down"></i></a>
+            <p>Forms Collection</p>
+        </div>
+    </Section>
+    <Section id="LastName">
+        <div class="FFDiv">
+            <div class="question">
+                <div class="numbering">
+                    <p>2</p>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+                <div class="content">
+                    <h1 class="heading">And What is your last name?</h1>
+                    <p class="description">Description (Optional)</p>
+                    <form action="">
+                        <input type="text" placeholder="Type Your Answer Here ...">
+                        <a href="#BirthDate" class="OkBtn">OK<i class="fa-solid fa-check margin-left"></i></a>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="SDiv">
+            <a href="#FirstName"><i class="fa-solid fa-caret-up"></i></a>
+            <a href="#BirthDate"><i class="fa-solid fa-caret-down"></i></a>
+            <p>Forms Collection</p>
+        </div>
+    </Section>
+    <Section id="BirthDate">
+        <div class="FFDiv">
+            <div class="question">
+                <div class="numbering">
+                    <p>3</p>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+                <div class="content">
+                    <h1 class="heading">Can i know you birthdate!</h1>
+                    <p class="description">Description (Optional)</p>
+                    <form action="">
+                        <input type="date" placeholder="Type Your Answer Here ...">
+                        <a href="#Selection" class="OkBtn">OK<i class="fa-solid fa-check margin-left"></i></a>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="SDiv">
+            <a href="#LastName"><i class="fa-solid fa-caret-up"></i></a>
+            <a href="#Selection"><i class="fa-solid fa-caret-down"></i></a>
+            <p>Forms Collection</p>
+        </div>
+    </Section>
+    <Section id="Selection">
+        <div class="FFDiv">
+            <div class="question">
+                <div class="numbering">
+                    <p>4</p>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+                <div class="content">
+                    <h1 class="heading">Which Form You Like More</h1>
+                    <p class="description">Description (Optional)</p>
+                    <form action="">
+                        <select name="form">
+                            <option value="volvo">Form1</option>
+                            <option value="saab">Form2</option>
+                            <option value="fiat">Form3</option>
+                            <option value="audi">Form4</option>
+                        </select>
+                        <a href="#Phone" class="OkBtn">OK<i class="fa-solid fa-check margin-left"></i></a>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="SDiv">
+            <a href="#BirthDate"><i class="fa-solid fa-caret-up"></i></a>
+            <a href="#Phone"><i class="fa-solid fa-caret-down"></i></a>
+            <p>Forms Collection</p>
+        </div>
+    </Section>
+    <Section id="Phone">
+        <div class="FFDiv">
+            <div class="question">
+                <div class="numbering">
+                    <p>5</p>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+                <div class="content">
+                    <h1 class="heading">Please Enter your phone number</h1>
+                    <p class="description">Description (Optional)</p>
+                    <form action="">
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="123-456-7895">
+                        <a href="#Email" class="OkBtn">OK<i class="fa-solid fa-check margin-left"></i></a>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="SDiv">
+            <a href="#Selection"><i class="fa-solid fa-caret-up"></i></a>
+            <a href="#Email"><i class="fa-solid fa-caret-down"></i></a>
+            <p>Forms Collection</p>
+        </div>
+    </Section>
+    <Section id="Email">
+        <div class="FFDiv">
+            <div class="question">
+                <div class="numbering">
+                    <p>6</p>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+                <div class="content">
+                    <h1 class="heading">Please Enter your email</h1>
+                    <p class="description">Description (Optional)</p>
+                    <form action="">
+                        <input type="email" placeholder="abc@gmail.com">
+                        <a href="#textarea" class="OkBtn">OK<i class="fa-solid fa-check margin-left"></i></a>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="SDiv">
+            <a href="#Phone"><i class="fa-solid fa-caret-up"></i></a>
+            <a href="#textarea"><i class="fa-solid fa-caret-down"></i></a>
+            <p>Forms Collection</p>
+        </div>
+    </Section>
+    <Section id="textarea">
+        <div class="FFDiv">
+            <div class="question">
+                <div class="numbering">
+                    <p>7</p>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+                <div class="content">
+                    <h1 class="heading">Your Feedback is most important</h1>
+                    <p class="description">Description (Optional)</p>
+                    <form action="">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Enter your feedback here"></textarea>
+                        <a href="#ThankYou" class="OkBtn">OK<i class="fa-solid fa-check margin-left"></i></a>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="SDiv">
+            <a href="#Email"><i class="fa-solid fa-caret-up"></i></a>
+            <a href="#ThankYou"><i class="fa-solid fa-caret-down"></i></a>
+            <p>Forms Collection</p>
+        </div>
+    </Section>
+
+    <Section id="ThankYou">
+        <div class="FFDivT">
+            <h1 class="heading">Thank You So Much For Your Support</h1>
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quod deserunt animi quam vitae, numquam debitis quas consectetur blanditiis porro provident voluptates rerum repudiandae facere commodi incidunt doloremque velit exercitationem, modi totam ad quia! Quas vitae reprehenderit unde recusandae, nam illo odit? Hic animi quibusdam dolores porro cupiditate, eum necessitatibus.</p>
+        </div>
+    </Section>
+</body>
+</html>
